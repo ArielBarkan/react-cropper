@@ -39,7 +39,7 @@ export const App: React.FC = () => {
         <br />
         <br />
         <Cropper
-          style={{ height: 400, width: "100%" }}
+          style={{ height: 400, width: 400 }}
           zoomTo={0.5}
           initialAspectRatio={1}
           preview=".img-preview"
