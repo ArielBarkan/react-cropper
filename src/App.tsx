@@ -46,8 +46,8 @@ export const App: React.FC = () => {
           src={image}
           viewMode={1}
           aspectRatio={1}
-          minCropBoxHeight={10}
-          minCropBoxWidth={10}
+          minCropBoxHeight={100}
+          minCropBoxWidth={100}
           background={false}
           responsive={true}
           autoCropArea={1}
